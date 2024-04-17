@@ -1,0 +1,19 @@
+{
+  "name": "js-for-kids",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "demo":"echo \"Demo print\" && exit 1",
+    "kids": "node --watch kids.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fail": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "Marta (https://github.com/martalionaite)",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
