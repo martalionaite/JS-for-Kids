@@ -67,7 +67,7 @@ var text1 = "Java".length;
 console.log(text1);
 
 var script = "Script".length;
-console.log(script);
+console.log(script);/*  */
 
 var javascript = "java" + "script";
 console.log(javascript.length);
