@@ -72,3 +72,71 @@ console.log(script);/*  */
 var javascript = "java" + "script";
 console.log(javascript.length);
 
+var myName = "Nick";
+console.log(myName[0]);
+console.log(myName[1]);
+console.log(myName[2]);
+
+var codeWord1 = "are";
+var codeWord2 = "tubas";
+var codeWord3 = "unsafe";
+var codeWord4 = "?!";
+console.log(codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1]);
+
+var longString = "My long string is long".slice(3, 14);
+console.log(longString);
+ 
+var longString = "My long string is long".slice(3);
+console.log(longString);
+
+var text2 = "Hello there, how are you doing?".toUpperCase();
+console.log(text2);
+
+var text3 = "HELLO THERE, HOW ARE YOU DOING?".toLowerCase();
+console.log(text3);
+
+var sillyString = "hELlo THERE, hOW ARE yOu doINg?";
+var lowerString = sillyString.toLowerCase();
+var firstCharacter = lowerString[0];
+var firstCharacterUpper = firstCharacter.toUpperCase();
+var restOfString = lowerString.slice(1);
+console.log(firstCharacterUpper + restOfString);
+
+var sillyString1 =  "hELlo THERE, hOW ARE yOu doINg?";
+var result1 = sillyString1[0].toUpperCase() + sillyString.slice(1). toLowerCase();
+console.log(result1);
+
+var javascriptIsCool = true;
+console.log(javascriptIsCool);
+
+var hadShower = true;
+var hasBackpack = true;
+console.log(hadShower && hasBackpack);
+
+var hasApple = false;
+var hasOrange = true;
+console.log(hasApple || hasOrange);
+
+var isWeekend = true;
+var needToShoweToday = !isWeekend;
+console.log(needToShoweToday);
+
+var isWeekend1 = false;
+var hadshowe1 = true;
+var hasApple1 = false;
+var hasOrange1 = true;
+var shouldGoToSchool = !isWeekend1 && hadshowe1 && (hasApple1 || hasOrange1);
+console.log(shouldGoToSchool);
+
+var height = 60;
+var heightRestriction = 60;
+console.log(height > heightRestriction);
+
+var mySecretNumber = 6;
+var chicoGuess = 6;
+var harpoGuess = 6;
+var grouchoGuess = 6;
+console.log(mySecretNumber === chicoGuess);
+console.log(mySecretNumber === harpoGuess);
+console.log(mySecretNumber === grouchoGuess);
+
