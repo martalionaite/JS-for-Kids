@@ -140,3 +140,73 @@ console.log(mySecretNumber === chicoGuess);
 console.log(mySecretNumber === harpoGuess);
 console.log(mySecretNumber === grouchoGuess);
 
+var dinosaurs1 = [
+    "T-Rex",
+    "Velociraptor",
+    "Stegosaurus",
+    "Triceratops",
+    "Brachiosaurus",
+    "Pteranodon",
+    "Apatosaurus",
+    "Diplodocus",
+    "Compsognathus"
+   ];
+
+   console.log(dinosaurs1[0] = "Tyrannosaurus Rex");
+   console.log(dinosaurs1);
+
+   var dinosaurs = [];
+dinosaurs[10] = "Philosoraptor";
+dinosaurs[0] = "T-Rex";
+dinosaurs[1] = "Velociraptor";
+dinosaurs[2] = "Stegosaurus";
+dinosaurs[3] = "Triceratops";
+dinosaurs[4] = "Brachiosaurus";
+dinosaurs[5] = "Pteranodon";
+dinosaurs[6] = "Apatosaurus";
+dinosaurs[7] = "Diplodocus";
+dinosaurs[8] = "Compsognathus";
+
+console.log(dinosaurs);
+
+
+var maniacs = ["Yakko", "Wakko", "Dot", "Koko", "Moko"];
+maniacs[0];
+"Yakko"
+maniacs[1];
+"Wakko"
+maniacs[2];
+"Dot"
+maniacs[3];
+"Koko"
+maniacs[4];
+"Moko"
+
+console.log(maniacs.length - 1);
+
+var maniacs1 = ["Yakko", "Wakko", "Dot", "Koko", "Moko"];
+console.log(maniacs1.unshift("monkey"));
+console.log(maniacs1.unshift("dog"));
+console.log(maniacs1.unshift("cat"));
+console.log(maniacs1);
+
+var animals = ["Polar Bear", "Monkey", "Cat", "Dog", "Llama"];
+var lastAnimal = animals.shift();
+console.log(lastAnimal);
+console.log(animals);
+
+var vaisiai = ["Kriause", "Obuolys", "Slyva"];
+var darzoves = ["Morka", "Bulve", "Kopustas"];
+var grudai = ["mieziai", "rugiai"];
+var maistas = vaisiai.concat(darzoves,grudai);
+console.log(maistas);
+
+var colors = ["red", "green", "blue"];
+console.log(colors.indexOf("purple"));
+
+var boringAnimals = ["Monkey", "Cat", "Dog", "Mouse"];
+console.log(boringAnimals.join(" - "));
+
+var myNames = ["Nicholas", "Andrew", "Maxwell", "Morgan"];
+console.log(myNames[0] + " " + myNames[1] + " " + myNames[2]);
+
